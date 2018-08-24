@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<meta charset="utf-8">
+	<title>Jogo da Velha</title>
+</head>
+<body onload="start()">
+
+	<h1>JOGO DA VELHA</h1>
+
+	<div id="mensagem">Campo da mensagem</div><br>
+	
+	<table border="1" align="center">
+		<tr>
+			<td class="square" id="1" onclick="preencher(this)"></td>
+			<td class="square" id="2" onclick="preencher(this)"></td>
+			<td class="square" id="3" onclick="preencher(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="4" onclick="preencher(this)"></td>
+			<td class="square" id="5" onclick="preencher(this)"></td>
+			<td class="square" id="6" onclick="preencher(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="7" onclick="preencher(this)"></td>
+			<td class="square" id="8" onclick="preencher(this)"></td>
+			<td class="square" id="9" onclick="preencher(this)"></td>
+		</tr>
+	</table><br>
+	<a href="javascript: start()" id="reiniciar">Jogar Novamente</a>
+	<footer>
+		<div class="rpe">
+			<a id="m" href="https://www.instagram.com/calldasmatheus">Matheus Caldas</a>
+			<a id="w" href="https://www.instagram.com/wellysondannilo/">Wellysson Dannilo</a>
+			<a id="e" href="https://www.instagram.com/euzebio_sinx/">Euzébio Filho</a>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
